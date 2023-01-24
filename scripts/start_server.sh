@@ -1,4 +1,4 @@
 #!/bin/bash
-systemctl start mariadb.service
-systemctl start httpd.service
-systemctl start php-fpm.service
+sudo systemctl start mariadb.service
+sudo systemctl start httpd.service
+sudo systemctl start php-fpm.service
