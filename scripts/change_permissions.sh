@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R 777 /var/www/html/WordPress
+sudo chmod +x /usr/local/bin/docker-compose
