@@ -1,10 +1,10 @@
 version: "3.3"
 services:
   web:
-    image: wordpress-web:latest
-#    build:
-#      context: ./
-#      dockerfile: dockerfile
+#    image: wordpress-web:latest
+    build:
+      context: ./
+      dockerfile: dockerfile
     depends_on:
       - db
     volumes:
