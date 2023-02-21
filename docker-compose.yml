@@ -4,7 +4,7 @@ services:
 #    image: wordpress-web:latest
     build:
       context: ./
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
     depends_on:
       - db
     volumes:
